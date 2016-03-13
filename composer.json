@@ -1,22 +1,23 @@
 {
-    "name": "partner-it/cloud-images",
-    "description": "CloudImages plugin for CakePHP",
-    "type": "cakephp-plugin",
-    "require": {
-        "php": ">=5.4.16"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "CloudImages\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "CloudImages\\Test\\": "tests",
-            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
-        }
+  "name": "partner-it/cloud-images",
+  "description": "CloudImages plugin for CakePHP",
+  "type": "cakephp-plugin",
+  "require": {
+    "cakephp/cakephp": ">=2.2",
+    "php": ">=5.4.16"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CloudImages\\": "src"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CloudImages\\Test\\": "tests",
+      "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+    }
+  }
 }
